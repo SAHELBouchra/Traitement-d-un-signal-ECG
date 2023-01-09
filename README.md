@@ -174,7 +174,7 @@ title('ecg3')
 La fréquence cardiaque peut être identifiée à partir de la fonction d'autocorrélation du signal ECG. Cela se fait en cherchant le premier maximum local après le maximum global (à tau = 0) de cette fonction.
 
 
-####  **9. Ecrire un programme permettant de calculer l’autocorrélation du signal ECG, puis de chercher cette fréquence cardiaque de façon automatique. Utiliser ce programme sur le signal traité ecg3 ou ecg2 et sur le signal ECG non traité.
-NB : il faut limiter l’intervalle de recherche à la plage possible de la fréquence cardiaque.**
+####  **9. Ecrire un programme permettant de calculer l’autocorrélation du signal ECG, puis de chercher cette fréquence cardiaque de façon automatique. Utiliser ce programme sur le signal traité ecg3 ou ecg2 et sur le signal ECG non traité. **
+NB : il faut limiter l’intervalle de recherche à la plage possible de la fréquence cardiaque.
 
 
