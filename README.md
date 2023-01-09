@@ -85,7 +85,7 @@ h(N-index_h+1:N)=0;
 
 ecg1_freq = h.*y;
 ecg1 =ifft(ecg1_freq,"symmetric");
-``
+```
 
 ####  **4- Tracer le nouveau signal ecg1, et noter les différences par rapport au signal d’origine.**
 
