@@ -97,7 +97,7 @@ plot(t,ecg1);
 ==> La différence par rapport au signal d'origine
 ```matlab
 plot(t,x-ecg1);
-``
+```
 
 <img width="809" alt="x" src="https://user-images.githubusercontent.com/93081417/211410333-2f2f4009-5996-4f3b-ba5e-115a7fa709f6.png">
 
