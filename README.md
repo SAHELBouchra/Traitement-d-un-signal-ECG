@@ -48,6 +48,10 @@ en dessous de cette valeur, le patient est en « bradycardie », au-dessus de ce
 Les signaux ECG sont contaminés avec différentes sources de bruits. Les bruits de hautes fréquences sont provoqués par l’activité musculaire extracardiaque et les interférences dues aux appareils électriques, et des bruits de basses fréquences provoqués par les mouvements du corps liés à la respiration, les changements physicochimiques induits par l’électrode posée sur la peau et les micro variations du flux sanguin. Le filtrage de ces bruits est une étape très importante pour faire un diagnostic réussi.
 
 
+$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$ [ (Revenir au sommaire) ](#retour)
+***
+
+
 <a name="part1"></a>
 ### **3. Suppression du bruit provoqué par les mouvements du corps:**
 
@@ -108,6 +112,10 @@ plot(t,x-ecg1);
 ```
 
 <img width="809" alt="x" src="https://user-images.githubusercontent.com/93081417/211410333-2f2f4009-5996-4f3b-ba5e-115a7fa709f6.png">
+
+
+$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$ [ (Revenir au sommaire) ](#retour)
+***
 
 
 <a name="part2"></a>
@@ -177,6 +185,9 @@ xlim([0.5 1.5])
 title('ecg3')
 ```
 
+$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$ [ (Revenir au sommaire) ](#retour)
+***
+
 <a name="part4"></a>
 ### **6. Identification de la fréquence cardiaque avec la fonction d’autocorrélation:**
 La fréquence cardiaque peut être identifiée à partir de la fonction d'autocorrélation du signal ECG. Cela se fait en cherchant le premier maximum local après le maximum global (à tau = 0) de cette fonction.
@@ -197,4 +208,11 @@ NB : il faut limiter l’intervalle de recherche à la plage possible de la fré
 
 ###### Frequence = 0.914*60 = 54.8400 Hz
 
+
+$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$ [ (Revenir au sommaire) ](#retour)
+***
+
+## Réalisé par : SAHEL Bouchra
+## Filiére : Robotique et Cobotique .
+## Encadré par : Pr. Ammour Alae .
 
