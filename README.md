@@ -177,4 +177,16 @@ La fréquence cardiaque peut être identifiée à partir de la fonction d'autoco
 ####  **9. Ecrire un programme permettant de calculer l’autocorrélation du signal ECG, puis de chercher cette fréquence cardiaque de façon automatique. Utiliser ce programme sur le signal traité ecg3 ou ecg2 et sur le signal ECG non traité.**
 NB : il faut limiter l’intervalle de recherche à la plage possible de la fréquence cardiaque.
 
+```matlab
+[c,lags] = xcorr(ecg3,ecg3);
+ stem(lags/fs,c)
+```
+####  **10. Votre programme trouve-t-il le bon pouls ? Commenter.**
+
+==>oui  le programme a trouvé le bon pouls
+<img width="800" alt="last" src="https://user-images.githubusercontent.com/93081417/211542971-d7fce668-d447-45f1-98ca-b861b68d42d8.png">
+
+
+###### Frequence = 0.914*60 = 54.8400 Hz
+
 
