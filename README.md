@@ -212,7 +212,7 @@ NB : il faut limiter l’intervalle de recherche à la plage possible de la fré
 $~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$ [ (Revenir au sommaire) ](#retour)
 ***
 
-## Réalisé par : SAHEL Bouchra
+## SAHEL Bouchra
 ## Filiére : Robotique et Cobotique .
 ## Encadré par : Pr. Ammour Alae .
 
