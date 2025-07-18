@@ -209,10 +209,5 @@ NB : il faut limiter l’intervalle de recherche à la plage possible de la fré
 ###### Frequence = 0.914*60 = 54.8400 Hz
 
 
-$~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~$ [ (Revenir au sommaire) ](#retour)
-***
 
-## SAHEL Bouchra
-## Filiére : Robotique et Cobotique .
-## Encadré par : Pr. Ammour Alae .
 
