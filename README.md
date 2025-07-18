@@ -1,4 +1,4 @@
-#Traitement-d-un-signal-ECG
+Traitement-d-un-signal-ECG
 
 <a name="retour"></a>
 ## Sommaire :
